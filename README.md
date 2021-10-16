@@ -1,4 +1,4 @@
-# project-learning
+# Project Learning
 <p>These are some projects for learning 📚</p>
 
 <br>
