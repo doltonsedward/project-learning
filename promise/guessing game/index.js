@@ -27,11 +27,8 @@ const enterNumber = () => {
     })
 }
 
-const continueGame = () => {
-    return new Promise((resolve, reject) => {
-        confirm('Continue playing? ') ? resolve(true) : resolve(false)
-    })
-}
+const continueGame = () => 
+    new Promise((resolve, reject) => confirm('Continue playing? ') ? resolve(true) : resolve(false))
 
 const handleGuess = () => {
     let strResult = ''
